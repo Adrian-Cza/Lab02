@@ -36,5 +36,33 @@ int main()
         }
     */
 
+    // Zadania 2, 3, 5
+
+    /*
+        int fahr, celsius;
+        int start, krok, limit;
+
+        start = 0;
+        limit = 200;
+        krok = 20;
+
+        fahr = start;
+
+        while (fahr <= limit) {
+            celsius = 5 * (fahr - 32) / 9;
+            cout << fahr << "\t" << celsius << endl;
+            fahr += krok;
+        }
+
+        for (fahr = 0.0; fahr <= limit; fahr += krok) {
+            float celsius = (5.0 / 9.0) * (fahr - 32.0);
+            cout << fahr << "\t" << celsius << endl;
+        }
+    
+        for (fahr = 0.0; fahr <= limit; fahr += krok) {
+            float celsius = (5 / 9) * (fahr - 32.0);
+            printf("%3.0f %6.1f \n", fahr, celsius);
+        }
+    */
     
 }
