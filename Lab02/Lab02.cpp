@@ -131,4 +131,26 @@ int main()
         }
         cout << "\nIlosc liczb podzielnych przez n: " << suma;
     */
+
+    // Zadanie 11
+    
+    /*
+        int a, b;
+        cout << "Podaj a: ", cin >> a;
+        cout << "\nPodaj b: ", cin >> b;
+        if (a < b) {
+            for (int i = a; i <= b; i++) {
+                if (i % 3 == 0) {
+                    cout << i << endl;
+                }
+            }
+        }
+        else {
+            for (int i = b; i <= a; i++) {
+                if (i % 3 == 0) {
+                    cout << i << endl;
+                }
+            }
+        }
+    */
 }
