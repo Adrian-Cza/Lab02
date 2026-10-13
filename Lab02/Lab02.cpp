@@ -68,7 +68,7 @@ int main()
     //  Zadanie 6
 
     /*
-            int fahr, celsius;
+        int fahr, celsius;
         int start, krok, limit;
 
         start = 0;
@@ -92,6 +92,16 @@ int main()
                 cout << liczba << endl;
             }
         }
+    */
+
+    // Zadanie 8
+    
+    /*
+        for (int i = 0; i <= 100; i++) {
+            if (i % 2 == 0) {
+                cout << i << endl;
+            }
+        }    
     */
 
 }
