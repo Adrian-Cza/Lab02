@@ -104,4 +104,19 @@ int main()
         }    
     */
 
+    // Zadanie 9
+    
+    /*
+        int n;
+
+        cout << "Podaj liczbe n: ", cin >> n;
+        cout << "\nLiczby od 0 do 100 podzielne przez n:" << endl;
+        for (int i = 0; i <= 100; i++) {
+            if (i % n == 0) {
+                cout << i << endl;
+            }
+        }
+    */
+
+
 }
