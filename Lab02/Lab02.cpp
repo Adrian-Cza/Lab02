@@ -66,6 +66,7 @@ int main()
     */
     
     //  Zadanie 6
+
     /*
             int fahr, celsius;
         int start, krok, limit;
@@ -78,6 +79,18 @@ int main()
         for (fahr = 0.0; fahr <= limit; fahr += krok) {
             float celsius = (5.0 / 9.0) * (fahr - 32.0);
             cout << fahr << "\t" << celsius << endl;
+        }
+    */
+
+    // Zadanie 7
+
+    /*
+        float liczba;
+        for (int i = 0; i < 10; i++){
+            cout << "Podaj liczbe: ", cin >> liczba;
+            if (liczba > 0.0) {
+                cout << liczba << endl;
+            }
         }
     */
 
