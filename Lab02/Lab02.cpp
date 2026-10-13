@@ -117,6 +117,18 @@ int main()
             }
         }
     */
+    
+    // Zadanie 10
+    
+    /*
+        int n, suma = 0;
 
-
+        cout << "Podaj liczbe n: ", cin >> n;
+        for (int i = 0; i <= 100; i++) {
+            if (i % n == 0) {
+                suma++;
+            }
+        }
+        cout << "\nIlosc liczb podzielnych przez n: " << suma;
+    */
 }
